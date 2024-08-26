@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2>プロフィール編集</h2>
+                <h2>プロフィール</h2>
             </div>
         </div>
     </div>
