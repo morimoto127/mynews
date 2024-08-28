@@ -8,6 +8,6 @@
         <title>profile編集</title>
     </head>
     <body>
-        <h1>プロフィール編集画面</h1>
+        <h1>プロフィール</h1>
     </body>
 </html>
