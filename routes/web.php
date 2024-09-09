@@ -37,4 +37,12 @@ Route::controller(ProfileController::class)->prefix('admin')->name('admin.')->mi
     Route::get('profile/edit','edit')->name('profile.edit');
     Route::post('profile/edit','update')->name('profile.update');
 });
+
+use App\Http\Controllers\ProfileController as PublicProfileController;
+Route::get('/profile', [PublicProfileController::class, 'index'])->name('profile.index');
+
 Auth::routes();
+
+use App\Http\Controllers\NewsController as PublicNewsController;
+Route::get('/', [PublicNewsController::class, 'index'])->name('news.index');
+
