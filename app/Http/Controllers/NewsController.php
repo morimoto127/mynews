@@ -8,7 +8,7 @@ use App\Models\News;
 
 class NewsController extends Controller
 {
-    public function index(Request $request)
+    public function index()
     {
         $posts = News::all()->sortByDesc('updated_at');
         if (count($posts) > 0) {
